@@ -133,7 +133,11 @@ h4{
     margin:130px 168px;
    
     
-  background-image: url('images/watch.png'); 
+  /* background-image: url('images/watch.png');  */
+  background-image: 
+  linear-gradient(to left,rgba(245,246,252,0.52),rgba(117,19,93,0.73)),
+  url('images/watch.png');
+
 }
 
 #tittle-2{
@@ -144,3 +148,65 @@ h4{
     margin-left: 64px;
    
 }
+#third-btn{
+    color: white;
+    background-color: #005FAC;
+}
+/* Footer Style */
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    background-color: #151414;
+    height: 577px;
+    color: white;
+}
+#sub1{
+    text-align: left;
+}
+.sub{
+    color: white;
+    font-weight: 700px;
+    font-size: 45px;
+}
+/* .sub-tittle-footer{
+    text-align: left;
+} */
+.footer-left{
+    text-align: left;
+    padding-top: 130px;
+    padding-left:200px;
+}
+.footer-right{
+    padding-top: 130px;
+    padding-left:200px;
+    
+}
+
+.footer-icon{
+    margin-top:32px;
+    margin-right: 18px;
+}
+input{
+    display: block;
+    margin-right:200px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    height: 64px;
+    width: 325px;
+     border:1px solid white;
+      background-color: #151414; 
+      
+}
+h3{
+    font-size: 25px;
+    font-weight: 600px;
+}
+.email{
+    padding-top:10px; 
+    padding-bottom: 10px;
+    padding-left:20px;
+ 
+}
+
+
